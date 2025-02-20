@@ -1,6 +1,6 @@
 # 🍷 Classificação de Vinhos
 
-Este é um algoritmo simples de **Machine Learning** criado para aprender o básico sobre classificação de dados. Ele classifica vinhos como **tinto (red)** ou **branco (white)** com base em suas características químicas, utilizando o algoritmo **Extra Trees Classifier** da biblioteca `scikit-learn`.
+Este é um algoritmo bem simples de **Machine Learning** criado para aprender o básico sobre classificação de dados. Ele classifica vinhos como tinto (red) ou branco (white) com base em suas características químicas, utilizando o algoritmo **Extra Trees Classifier** da biblioteca `scikit-learn`.
 
 ## 📂 Estrutura do Código
 
@@ -60,11 +60,11 @@ O dataset `wine_dataset.csv` contém informações químicas de vinhos e sua cla
 
 ## 🧠 Como Funciona o Algoritmo
 
-1️⃣ O dataset é carregado e os rótulos (`red` e `white`) são convertidos em `0` e `1`.
-2️⃣ Os dados são separados em **preditoras** (X) e **alvo** (y).
-3️⃣ O conjunto de dados é dividido em **treino (70%)** e **teste (30%)**.
-4️⃣ Um modelo `ExtraTreesClassifier` é treinado para aprender as características dos vinhos.
-5️⃣ O modelo é testado e sua **acurácia** é calculada.
+- O dataset é carregado e os rótulos (`red` e `white`) são convertidos em `0` e `1`.
+- Os dados são separados em **preditoras** (X) e **alvo** (y).
+- O conjunto de dados é dividido em **treino (70%)** e **teste (30%)**.
+- Um modelo `ExtraTreesClassifier` é treinado para aprender as características dos vinhos.
+- O modelo é testado e sua **acurácia** é calculada.
 
 ## 📈 Exemplo de Saída
 
