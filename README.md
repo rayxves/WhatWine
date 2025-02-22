@@ -2,18 +2,7 @@
 
 Este é um algoritmo bem simples de **Machine Learning** criado para aprender o básico sobre classificação de dados. Ele classifica vinhos como tinto (red) ou branco (white) com base em suas características químicas, utilizando o algoritmo **Extra Trees Classifier** da biblioteca `scikit-learn`.
 
-## 📂 Estrutura do Código
-
-```
-WhatWine/
-│-- assets/
-│   ├── wine_dataset.csv  # Dataset com informações dos vinhos
-│-- venv/                 # Ambiente virtual
-│-- main.py               # Código principal
-│-- README.md             # Documentação
-```
-
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3.13**
 - **Pandas** (manipulação de dados)
@@ -32,7 +21,7 @@ venv\Scripts\activate     # Windows
 ### 2️⃣ Instalar as dependências
 
 ```bash
-pip install -r requirements.txt
+pip install pandas scikit-learn
 ```
 
 ### 3️⃣ Executar o script
@@ -58,7 +47,7 @@ O dataset `wine_dataset.csv` contém informações químicas de vinhos e sua cla
   - `0` → Vinho tinto
   - `1` → Vinho branco
 
-## 🧠 Como Funciona o Algoritmo
+## Como Funciona o Algoritmo
 
 - O dataset é carregado e os rótulos (`red` e `white`) são convertidos em `0` e `1`.
 - Os dados são separados em **preditoras** (X) e **alvo** (y).
@@ -66,7 +55,7 @@ O dataset `wine_dataset.csv` contém informações químicas de vinhos e sua cla
 - Um modelo `ExtraTreesClassifier` é treinado para aprender as características dos vinhos.
 - O modelo é testado e sua **acurácia** é calculada.
 
-## 📈 Exemplo de Saída
+## Exemplo de Saída
 
 ```bash
 Acurácia:  0.98
